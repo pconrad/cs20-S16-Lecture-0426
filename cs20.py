@@ -17,7 +17,8 @@ jane = turtle.Turtle()
 jane.color('green')
 george = turtle.Turtle()
 george.color('red')
-
+mark= turtle.Turtle()
+mark.color('blue')
   
 
 
