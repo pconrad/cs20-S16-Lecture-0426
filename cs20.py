@@ -8,18 +8,10 @@ def drawSquare(sideLen,t):
     t.down()
 
     t.setheading(0)
-    
-    t.forward(sideLen)
-    t.left(90)
 
-    t.forward(sideLen)
-    t.left(90)
-
-    t.forward(sideLen)
-    t.left(90)
-
-    t.forward(sideLen)
-    t.left(90)
+    for i in range(4):    
+      t.forward(sideLen)
+      t.left(90)
 
 jane = turtle.Turtle()
 jane.color('green')
